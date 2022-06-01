@@ -1,16 +1,11 @@
 {
   "compilerOptions": {
     // 配置这些文件可以使用es6语法
-    "module": "UMD",  //commonJs
+    "module": "UMD", //commonJs
     "removeComments": true,
     "sourceMap": true,
-    "target": "es6",
+    "target": "es6"
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
